@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+
+    tools:context="com.example.saylani_pc.abc.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1dp"
+
+        android:src="@drawable/i"
+      />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1dp"
+
+        android:src="@drawable/abc"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anatoms"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="809dp"
+        android:text="Software house"
+        android:textSize="25sp"
+        android:checked="true"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="809dp"
+        android:text="Syed Bakhtiyar"
+        android:textSize="25sp"
+
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="syedbakhtiyar120@gmail. com"
+        android:layout_marginLeft="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0346-**********"
+        android:textSize="25sp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>
